@@ -1,5 +1,6 @@
 import './App.css';
 import Expenses from './Expenses/Expenses';
+import NewExpense from './Expenses/NewExpense';
 
 const App = () => {
   const expenses = [
@@ -23,8 +24,13 @@ const App = () => {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const onSaveExpenseData = (expenseData) => {
+      console.log(expenseData);
+  }
   return (
     <div className="App">
+      <NewExpense onSaveExpenseData = {onSaveExpenseData}/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
