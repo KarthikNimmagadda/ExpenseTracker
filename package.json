@@ -1,6 +1,6 @@
 {
-  "homepage": "https://karthiknimmagadda.github.io/react-complete-guide",
-  "name": "react-complete-guide",
+  "homepage": "https://karthiknimmagadda.github.io/ExpenseTracker",
+  "name": "ExpenseTracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
